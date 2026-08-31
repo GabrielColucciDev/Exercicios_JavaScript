@@ -1,0 +1,11 @@
+prompt = require("prompt-sync")();
+
+let media= Number(prompt("Qual é sua media?:"))
+
+let frequencia = Number(prompt("Digite sua frequencia: ", "%"));
+
+if(media >= 7 && frequencia >= 75){
+	console.log("Você recebeu foi APROVADO")
+}else{
+ console.log("Voce foi REPROVADO")
+};
